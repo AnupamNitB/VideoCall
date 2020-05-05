@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.videochat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:6:5-77
+11-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:6:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:8:5-65
+13-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:8:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:9:5-60
+15-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:10:5-69
+16-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:10:19-67
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:12:5-78
+18-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:13:5-80
+19-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:14:5-71
+20-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:14:22-68
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:15:5-68
+21-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:15:22-65
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:16:5-80
+22-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+23-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:13:5-80
+23-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:13:22-77
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.facebook.flipper:flipper:0.33.1] /home/anupamgupta/.gradle/caches/transforms-2/files-2.1/c7fc172fc4c1018bcc2aec39e05caf2c/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+24-->[com.facebook.flipper:flipper:0.33.1] /home/anupamgupta/.gradle/caches/transforms-2/files-2.1/c7fc172fc4c1018bcc2aec39e05caf2c/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+25
+26    <application
+26-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:19:5-38:19
+27        android:name="com.videochat.MainApplication"
+27-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:20:7-38
+28        android:allowBackup="false"
+28-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:24:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] /home/anupamgupta/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:22:7-41
+32        android:label="@string/app_name"
+32-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:21:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:23:7-52
+34        android:theme="@style/AppTheme"
+34-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:25:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/debug/AndroidManifest.xml:7:18-53
+36        <activity
+36-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:26:7-36:18
+37            android:name="com.videochat.MainActivity"
+37-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:27:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:29:9-86
+39            android:label="@string/app_name"
+39-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:28:9-41
+40            android:launchMode="singleTask"
+40-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:30:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:31:9-51
+42            <intent-filter>
+42-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:32:9-35:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:33:13-65
+43-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:33:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:34:13-73
+45-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:34:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+48-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:37:7-84
+48-->/media/anupamgupta/USER/RN_Project/videoChat/android/app/src/main/AndroidManifest.xml:37:17-81
+49    </application>
+50
+51</manifest>
